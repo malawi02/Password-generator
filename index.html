@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><Password-generator></title>
-
+    <title>Password-generator</title>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
@@ -14,44 +14,40 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Password-generator</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-    </nav>
-
-    <div class="container">
-
-        <div class="row">
-
-            <div class="col-lg-8 col-sm-12 mx-auto">
-
-                <div class="content">
-                    <h3>Password Generator</h3>
-                    <br />
-                    <h4>Generate a Password</h4>
-                    <br />
-                    <input type="text" id="display">
-                    <br />
-                    
+        <div class="container">
+            <h2>Password-Generator</h2>
+            
                 
-                    <button type="button" class="btn btn-primary btn-lg">Generate Password</button>
-                    <button type="button" class="btn btn-secondary btn-lg">Copy to Clipboard</button>
-                    
-                    <div id="length"></div>
-                </div>
-
-                <div class="previous_password">
-                    <b>Prevously Generated Passwords</b>
+                
+            <div class="content">
+                    <h4>Generate Password</h4>
                     <br />
-                    <div id="LastNumbers"></div>
+                <div class="mini-content">
+                    <input type="text" placeholder="Your Secure Password">
+                  
                 </div>
-            </div>
+                    <button class="btn btn-primary btn-lg"  id="generate">Generate Password</button>
+                
+            
+                    <button class="btn btn-secondary btn-lg"  id="Clipboard">Copy to Clipboard</button>
+        
+                    <div id="length">
+            </div>        
 
 
+                    <div class="previous_password">
+                           <b>Prevously Generated Passwords</b>
+                        <br />
+                    </div>
+                          <div id="LastNums"></div>
+                          </div>
+        </div>
+
+                    </div>
         </div>
     </div>
+    <script src="script.js"></script>
     
 </body>
+
 </html>

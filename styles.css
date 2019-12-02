@@ -1,0 +1,47 @@
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    padding: 20px;
+    width: auto;
+    border: solid;
+    height:550px; 
+}
+.h2{
+    text-align: center;
+}
+
+
+
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 10px;
+    width: 100%;
+    border: solid;
+    height: 400px;
+    
+}
+.mini-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: auto;
+    border: dotted;
+    height: 150px;
+}
+
+.button{
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      
+}
