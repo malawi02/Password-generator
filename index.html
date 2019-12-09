@@ -23,22 +23,27 @@
                     <h4>Generate Password</h4>
                     <br />
                 <div class="mini-content">
-                    <input type="text" placeholder="Your Secure Password">
+                
+                
+                    <input type="textarea" placeholder="Your Secure Password">
                   
                 </div>
-                    <button class="btn btn-primary btn-lg"  id="generate">Generate Password</button>
+                <div class="row">
+                    <div class="buttons"></div>
+                    <div class="col-md-6">
+                    <button type = "button" class="btn btn-danger btn-lg"  id="generate">Generate Password</button>
+                    <div class = "previous-password"></div>
+                       <b>Prevously Generated Password</b>    
+                    </div>
+                    <div class="col-md-6">
+              
+                    <button type ="button" class="btn btn-primary btn-lg"  id="Clipboard">Copy to Clipboard</button>
+                    </div>
                 
-            
-                    <button class="btn btn-secondary btn-lg"  id="Clipboard">Copy to Clipboard</button>
-        
-                    <div id="length">
             </div>        
 
 
-                    <div class="previous_password">
-                           <b>Prevously Generated Passwords</b>
-                        <br />
-                    </div>
+            
                           <div id="LastNums"></div>
                           </div>
         </div>

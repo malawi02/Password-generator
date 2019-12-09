@@ -6,6 +6,7 @@
     width: auto;
     border: solid;
     height:550px; 
+    text-align: center;
 }
 .h2{
     text-align: center;
@@ -21,6 +22,7 @@
     width: 100%;
     border: solid;
     height: 400px;
+    text-align: left;
     
 }
 .mini-content{
@@ -30,9 +32,10 @@
     width: auto;
     border: dotted;
     height: 150px;
+    text-align: center;
 }
 
-.button{
+.button1{
         background-color: red;
         border: none;
         color: white;
@@ -44,4 +47,11 @@
         margin: 4px 2px;
         cursor: pointer;
       
+}
+.button2{
+    float: right;
+}
+.text{
+    border: solid;
+    float: center;
 }
